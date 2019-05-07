@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/EVM/Cash_proj/L2_cache_test_isim_beh.exe -prj F:/EVM/Cash_proj/L2_cache_test_beh.prj work.L2_cache_test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/EVM/Cash_proj/ipcore_dir/L2_mem.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "F:/EVM/Cash_proj/L2_tag.vhd" into library work
+Parsing VHDL file "F:/EVM/Cash_proj/L2_muu.vhd" into library work
+Parsing VHDL file "F:/EVM/Cash_proj/L2_ks.vhd" into library work
+Parsing VHDL file "F:/EVM/Cash_proj/ipcore_dir/L2_mem.vhd" into library work
+Parsing VHDL file "F:/EVM/Cash_proj/L2_cache.vhd" into library work
+Parsing VHDL file "F:/EVM/Cash_proj/L2_cache_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 107060 KB
+Fuse CPU Usage: 436 ms
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture l2_muu_arch of entity L2_muu [l2_muu_default]
+Compiling architecture l2_tag_arch of entity L2_tag [\L2_tag(3,8)\]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture l2_mem_a of entity L2_mem [l2_mem_default]
+Compiling architecture l2_ks_arch of entity L2_ks [\L2_ks(128)\]
+Compiling architecture l2_cache_arch of entity L2_cache [\L2_cache(128,3,8)\]
+Compiling architecture behavior of entity l2_cache_test
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Compiled 1 Verilog Units
+Built simulation executable F:/EVM/Cash_proj/L2_cache_test_isim_beh.exe
+Fuse Memory Usage: 129640 KB
+Fuse CPU Usage: 764 ms

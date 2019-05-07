@@ -1,0 +1,6 @@
+vhdtdtfi -lib work L2_ks.vhd -prj Cash_proj -o L2_ks.spl -module L2_ks -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 L2_ks.spl F:/EVM/Cash_proj/L2_ks.sym 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_ks.tfi -module L2_ks -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work L2_ks.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_ks.tfi -module L2_ks -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work L2_ks.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_ks.vhi -module L2_ks -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_ks.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_ks.vhi -module L2_ks -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_ks.vhd 

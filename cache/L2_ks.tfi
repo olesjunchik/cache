@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+L2_ks instance_name (
+    .opin(opin), 
+    .l1in(l1in), 
+    .ch(ch), 
+    .dout(dout)
+    );
+
+

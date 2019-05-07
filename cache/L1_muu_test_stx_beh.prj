@@ -1,0 +1,2 @@
+vhdl isim_temp "L1_muu.vhd"
+vhdl isim_temp "L1_muu_test.vhd"

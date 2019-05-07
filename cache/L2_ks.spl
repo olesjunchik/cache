@@ -1,0 +1,7 @@
+[Inputs]
+ch
+=opin[128:0]=
+=l1in[128:0]=
+[Outputs]
+=dout[128:0]=
+[BiDir]

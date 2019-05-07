@@ -1,0 +1,28 @@
+Command line:
+   L2_muu_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49926
+
+Tue Apr 23 20:21:20 2019
+
+
+ Elaboration Time: 0.171601 sec
+
+ Current Memory Usage: 696.938 Meg
+
+ Total Signals          : 26
+ Total Nets             : 14
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 375
+
+ Total Simulation Time: 0.218402 sec
+
+ Current Memory Usage: 696.938 Meg
+
+Tue Apr 23 20:21:23 2019
+

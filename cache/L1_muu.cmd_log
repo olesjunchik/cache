@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/media/olesja/DATA/Cash/Cash_proj/L1_muu.xst" -ofn "/media/olesja/DATA/Cash/Cash_proj/L1_muu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim L1_muu.ngc L1_muu_synthesis.v 
+xst -intstyle ise -ifn "/media/olesja/DATA/Cash/Cash_proj/L1_muu.xst" -ofn "/media/olesja/DATA/Cash/Cash_proj/L1_muu.syr" 
+xst -intstyle ise -ifn "/media/olesja/DATA/Cash/Cash_proj/L1_muu.xst" -ofn "/media/olesja/DATA/Cash/Cash_proj/L1_muu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-fgg484-3 L1_muu.ngc L1_muu.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L1_muu_map.ncd L1_muu.ngd L1_muu.pcf 
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L1_muu_map.ncd L1_muu.ngd L1_muu.pcf 
+xst -intstyle ise -ifn "F:/EVM/Cash_proj/L1_muu.xst" -ofn "F:/EVM/Cash_proj/L1_muu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-fgg484-3 L1_muu.ngc L1_muu.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L1_muu_map.ncd L1_muu.ngd L1_muu.pcf 
+par -w -intstyle ise -ol high -mt off L1_muu_map.ncd L1_muu.ncd L1_muu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L1_muu.twx L1_muu.ncd -o L1_muu.twr L1_muu.pcf 

@@ -1,0 +1,6 @@
+vhdl isim_temp "ipcore_dir/L2_mem.vhd"
+vhdl isim_temp "L2_tag.vhd"
+vhdl isim_temp "L2_muu.vhd"
+vhdl isim_temp "L2_ks.vhd"
+vhdl isim_temp "L2_cache.vhd"
+vhdl isim_temp "L2_cache_test.vhd"

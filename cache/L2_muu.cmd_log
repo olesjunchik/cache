@@ -1,0 +1,2 @@
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_muu.vhi -module L2_muu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_muu.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_muu.vhi -module L2_muu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_muu.vhd 

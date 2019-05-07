@@ -1,0 +1,5 @@
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_tag.tfi -module L2_tag -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work L2_tag.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_tag.vhi -module L2_tag -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_tag.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_tag.vhi -module L2_tag -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_tag.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_tag.vhi -module L2_tag -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_tag.vhd 
+vhdtdtfi -prj Cash_proj -o F:/EVM/Cash_proj/L2_tag.vhi -module L2_tag -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work L2_tag.vhd 
