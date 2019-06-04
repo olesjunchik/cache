@@ -1,8 +1,0 @@
-vhdl work "L2_tag.vhd"
-vhdl work "L2_muu.vhd"
-vhdl work "L2_ks.vhd"
-verilog work "ipcore_dir/L2_mem.v"
-vhdl work "ipcore_dir/L2_mem.vhd"
-vhdl work "L2_cache.vhd"
-vhdl work "L2_cache_test.vhd"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

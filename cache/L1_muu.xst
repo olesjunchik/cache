@@ -1,5 +1,5 @@
-set -tmpdir "F:/EVM/Cash_proj/xst/projnav.tmp"
-set -xsthdpdir "F:/EVM/Cash_proj/xst"
+set -tmpdir "/media/olesja/DATA/Cash/cache/xst/projnav.tmp"
+set -xsthdpdir "/media/olesja/DATA/Cash/cache/xst"
 run -compileonly yes
 -p xc6slx45-3-fgg484
 -top L1_muu

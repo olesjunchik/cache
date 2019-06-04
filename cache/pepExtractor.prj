@@ -1,5 +1,1 @@
-work	"L2_cache.vhd"
-work	"L2_ks.vhd"
-work	"L2_muu.vhd"
-work	"L2_tag.vhd"
-work	"ipcore_dir/L2_mem.vhd"
+work	"L1_tag_ch.vhd"

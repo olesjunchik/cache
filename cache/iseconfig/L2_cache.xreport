@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-04-23T21:04:04</DateModified>
+  <DateModified>2019-06-03T20:35:56</DateModified>
   <ModuleName>L2_cache</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>F:/EVM/Cash_proj/iseconfig/L2_cache.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/EVM/Cash_proj</ImplementationReportsDirectory>
+  <SavedFilePath>/media/olesja/DATA/Cash/cache/iseconfig/L2_cache.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/media/olesja/DATA/Cash/cache/</ImplementationReportsDirectory>
   <DateInitialized>2019-04-23T21:04:03</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

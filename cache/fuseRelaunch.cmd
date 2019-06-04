@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/EVM/Cash_proj/L2_cache_test_isim_beh.exe" -prj "F:/EVM/Cash_proj/L2_cache_test_beh.prj" "work.L2_cache_test" "work.glbl" 
+-intstyle "ise" -incremental -lib "secureip" -o "/media/olesja/DATA/Cash/cache/L1_tag_ch_test_isim_beh.exe" -prj "/media/olesja/DATA/Cash/cache/L1_tag_ch_test_beh.prj" "work.L1_tag_ch_test" 
