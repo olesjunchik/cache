@@ -1,23 +1,42 @@
-Running: /media/olesja/DATA/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /media/olesja/DATA/Cash/cache/L1_tag_ch_test_isim_beh.exe -prj /media/olesja/DATA/Cash/cache/L1_tag_ch_test_beh.prj work.L1_tag_ch_test 
+Running: /media/olesja/DATA/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/media/olesja/DATA/Cash/cache/L1_cache_test_isim_beh.exe" -prj "/media/olesja/DATA/Cash/cache/L1_cache_test_beh.prj" "work.L1_cache_test" 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/ipcore_dir/L1_mem.vhd" into library work
 Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_tag_ch.vhd" into library work
-Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_tag_ch_test.vhd" into library work
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/L2_ks1.vhd" into library work
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_tag.vhd" into library work
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_muu.vhd" into library work
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_ks2.vhd" into library work
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_cache.vhd" into library work
+Parsing VHDL file "/media/olesja/DATA/Cash/cache/L1_cache_test.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 96508 KB
-Fuse CPU Usage: 1240 ms
+Fuse Memory Usage: 100412 KB
+Fuse CPU Usage: 1540 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
+Compiling architecture l1_muu_arch of entity L1_muu [l1_muu_default]
 Compiling architecture l1_tag_ch_arch of entity L1_tag_ch [\L1_tag_ch(8,3,3)\]
-Compiling architecture behavior of entity l1_tag_ch_test
+Compiling architecture l1_tag_arch of entity L1_tag [\L1_tag(8,3,3,3)\]
+Compiling architecture l1_ks1_arch of entity L1_ks1 [\L1_ks1(4,2,128)\]
+Compiling architecture l1_ks2 of entity L1_ks2 [\L1_ks2(4,2,128)\]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture l1_mem_a of entity L1_mem [l1_mem_default]
+Compiling architecture l1_cache_arch of entity L1_cache [\L1_cache(4,128,8,3,2,3)\]
+Compiling architecture behavior of entity l1_cache_test
 Time Resolution for simulation is 1ps.
-Compiled 7 VHDL Units
-Built simulation executable /media/olesja/DATA/Cash/cache/L1_tag_ch_test_isim_beh.exe
-Fuse Memory Usage: 668800 KB
-Fuse CPU Usage: 1350 ms
-GCC CPU Usage: 2610 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable /media/olesja/DATA/Cash/cache/L1_cache_test_isim_beh.exe
+Fuse Memory Usage: 677168 KB
+Fuse CPU Usage: 1720 ms
+GCC CPU Usage: 290 ms

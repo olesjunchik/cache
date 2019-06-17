@@ -1,0 +1,1 @@
+vhdtdtfi -prj Cash_proj -o /media/olesja/DATA/Cash/cache/L1_cache.vhi -module L1_cache -template /media/olesja/DATA/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/L1_mem.vhd -lib work L1_tag_ch.vhd -lib work L2_ks1.vhd -lib work L1_tag.vhd -lib work L1_muu.vhd -lib work L1_ks2.vhd -lib work L1_cache.vhd 

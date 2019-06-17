@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/L1_mem.vhd"
+vhdl work "L1_tag_ch.vhd"
+vhdl work "L2_ks1.vhd"
+vhdl work "L1_tag.vhd"
+vhdl work "L1_muu.vhd"
+vhdl work "L1_ks2.vhd"
+vhdl work "L1_cache.vhd"

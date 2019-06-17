@@ -1,0 +1,2 @@
+vhdl isim_temp "L2_ks1.vhd"
+vhdl isim_temp "L1_ks1_test.vhd"

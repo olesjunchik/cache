@@ -70,7 +70,7 @@ alias addr_index	: std_logic_vector(INDEXSIZE - 1 downto 0) is addr(INDEXSIZE - 
 
 begin
 
-	CH_GEN: for i in 0 to CH_COUNT generate
+	CH_GEN: for i in 0 to CH_COUNT - 1 generate
 		TAG_CH: L1_tag_ch PORT MAP(
 			addr => addr,
 			wr => chWr(i),
@@ -84,12 +84,11 @@ begin
 		);
 	end generate CH_GEN;
 	
-	clk_proc : process (clk, lfu, lfucnt)
+	clk_proc : process (clr, wr, lfu, lfucnt, chLfuRez, mini)
 	begin
-		if (clk'event and clk = '1') then
 			if (clr = '1') then
-				num <= '0';
-				hit <= '0';
+				num <= (others => '0');
+				mini <= 0;
 			else
 				if (lfu = '1') then
 					mini <= 0;
@@ -100,7 +99,7 @@ begin
 					end loop;
 					
 					chLfuClr(mini) <= '1';
-					num <= conv_std_logic_vector(i, NSIZE);
+					num <= conv_std_logic_vector(mini, NSIZE);
 				else
 					chLfuClr <= (others => '0');
 				end if;
@@ -112,17 +111,16 @@ begin
 				end if;
 				
 				if (wr = '1') then
-					chWr(num) <= '1';
+					chWr(conv_integer(num)) <= '1';
 				else
 					chWr <= (others => '0');
 				end if;
 			end if;
-		end if;
-	end process tag_mem_p;
+	end process clk_proc;
 	
 	hit_proc : process (chHit)
 	begin
-		hit <= '0';
+		hit <= chHit(0);
 		num <= (others => '0');
 		for i in 0 to CH_COUNT - 1 loop
 			if (chHit(i) = '1') then

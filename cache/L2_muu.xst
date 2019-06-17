@@ -1,5 +1,5 @@
-set -tmpdir "/media/olesja/DATA/Cash/Cash_proj/xst/projnav.tmp"
-set -xsthdpdir "/media/olesja/DATA/Cash/Cash_proj/xst"
+set -tmpdir "/media/olesja/DATA/Cash/cache/xst/projnav.tmp"
+set -xsthdpdir "/media/olesja/DATA/Cash/cache/xst"
 run -compileonly yes
 -p xc6slx45-3-fgg484
 -top L2_muu
@@ -12,6 +12,7 @@ run -compileonly yes
 -rtlview Yes
 -glob_opt AllClockNets
 -read_cores YES
+-sd {"ipcore_dir"  }
 -write_timing_constraints NO
 -cross_clock_analysis NO
 -hierarchy_separator /

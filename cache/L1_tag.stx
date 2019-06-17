@@ -51,12 +51,12 @@ Parsing architecture <L1_tag_arch> of entity <l1_tag>.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.13 secs
+Total CPU time to Xst completion: 2.93 secs
  
 --> 
 
 
-Total memory usage is 303008 kilobytes
+Total memory usage is 303000 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

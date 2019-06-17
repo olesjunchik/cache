@@ -30,7 +30,7 @@ architecture L1_muu_arch of L1_muu is
    signal state, next_state : state_type;
 
 begin
-   SYNC_PROC: process (clk)
+   SYNC_PROC: process (clk, clr)
    begin
       if (clk'event and clk = '1') then
          if (clr = '1') then

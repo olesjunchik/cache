@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/media/olesja/DATA/Cash/cache/L1_cache_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="l1_cache_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wave_markers>
+      <marker time="15000000" label="" />
+      <marker time="55000000" label="" />
+      <marker time="75179000" label="" />
+      <marker time="135357000" label="" />
+      <marker time="155000000" label="" />
+      <marker time="195000000" label="" />
+      <marker time="215000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/l1_cache_test/clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7b07</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/bitv" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bitv[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bitv[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#b8d819</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/l2in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">l2in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">l2in[127:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/l2ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">l2ack</obj_property>
+      <obj_property name="ObjectShortName">l2ack</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#44c608</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/l2out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">l2out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">l2out[127:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#5500ff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/l2addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">l2addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">l2addr[10:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/l2rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">l2rd</obj_property>
+      <obj_property name="ObjectShortName">l2rd</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/l2wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">l2wr</obj_property>
+      <obj_property name="ObjectShortName">l2wr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#21bdff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_cache_test/uut/MUU/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="group107" type="group">
+      <obj_property name="label">MUU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/hit" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/rd" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd</obj_property>
+         <obj_property name="ObjectShortName">rd</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/wr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/l2ack" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">l2ack</obj_property>
+         <obj_property name="ObjectShortName">l2ack</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/clr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/lfu" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lfu</obj_property>
+         <obj_property name="ObjectShortName">lfu</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/cnt" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cnt</obj_property>
+         <obj_property name="ObjectShortName">cnt</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/ch" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ch</obj_property>
+         <obj_property name="ObjectShortName">ch</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/twr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">twr</obj_property>
+         <obj_property name="ObjectShortName">twr</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/dwr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dwr</obj_property>
+         <obj_property name="ObjectShortName">dwr</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/ack" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/l2rd" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">l2rd</obj_property>
+         <obj_property name="ObjectShortName">l2rd</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/l2wr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">l2wr</obj_property>
+         <obj_property name="ObjectShortName">l2wr</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MUU/next_state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group122" type="group">
+      <obj_property name="label">KS1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/l2in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">l2in[127:0]</obj_property>
+         <obj_property name="ObjectShortName">l2in[127:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/procin" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">procin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">procin[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/ofs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ofs[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ofs[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/bitv" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">bitv[3:0]</obj_property>
+         <obj_property name="ObjectShortName">bitv[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/ch" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ch</obj_property>
+         <obj_property name="ObjectShortName">ch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dout[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/d1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">d1[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/d2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">d2[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/mask" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mask[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mask[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/procwordsize" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">procwordsize</obj_property>
+         <obj_property name="ObjectShortName">procwordsize</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/ofsize" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ofsize</obj_property>
+         <obj_property name="ObjectShortName">ofsize</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS1/datasize" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">datasize</obj_property>
+         <obj_property name="ObjectShortName">datasize</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/l1_cache_test/uut/MEM/wea" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MEM/addra" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addra[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MEM/dina" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dina[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[127:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/MEM/douta" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">douta[127:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group78" type="group">
+      <obj_property name="label">KS2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data[127:0]</obj_property>
+         <obj_property name="label">data[127:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/ofs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ofs[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ofs[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/procwordsize" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">procwordsize</obj_property>
+         <obj_property name="ObjectShortName">procwordsize</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/ofsize" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ofsize</obj_property>
+         <obj_property name="ObjectShortName">ofsize</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/KS2/datasize" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">datasize</obj_property>
+         <obj_property name="ObjectShortName">datasize</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group223" type="group">
+      <obj_property name="label">TAG_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/mini" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">mini</obj_property>
+         <obj_property name="ObjectShortName">mini</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/wr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/lfu" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lfu</obj_property>
+         <obj_property name="ObjectShortName">lfu</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/lfucnt" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lfucnt</obj_property>
+         <obj_property name="ObjectShortName">lfucnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/clr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/hit" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/index" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/n" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">n[2:0]</obj_property>
+         <obj_property name="ObjectShortName">n[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/chwr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">chwr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">chwr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/chlfucnt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">chlfucnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">chlfucnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/chlfuclr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">chlfuclr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">chlfuclr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/chhit" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">chhit[7:0]</obj_property>
+         <obj_property name="ObjectShortName">chhit[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/chlfurez" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">chlfurez[7:0]</obj_property>
+         <obj_property name="ObjectShortName">chlfurez[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/l1_cache_test/uut/TAG_MEM/num" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">num[2:0]</obj_property>
+         <obj_property name="ObjectShortName">num[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

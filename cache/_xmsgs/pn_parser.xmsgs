@@ -8,6 +8,18 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/Cache_system.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/KS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/L1_cache.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/L1_ks2.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/L1_muu.vhd&quot; into library work</arg>
 </msg>
 
@@ -21,6 +33,9 @@
 </msg>
 
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/L2_ks.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/L2_ks1.vhd&quot; into library work</arg>
 </msg>
 
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/olesja/DATA/Cash/cache/L2_muu.vhd&quot; into library work</arg>
